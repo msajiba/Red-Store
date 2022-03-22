@@ -25,14 +25,15 @@
             </div>
             <nav>
                 <ul id="menu-items">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Account</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+
                 </ul>
             </nav>
-            <img src="images/cart.png" alt="" width="30px" height="30px">
+            <a href="cart.html"><img src="images/cart.png" alt="" width="30px" height="30px" id="cart-icon"> </a>
             <img src="images/menu.png" class="menu-icon" onclick="menuToggle()">
         </div>
     </section>
@@ -46,40 +47,48 @@
             <div class="col-2">
                 <img src="images/gallery-1.jpg " alt="" id="product-img">
 
-              <div class="small-img-row">
-                <div class="small-img-col">
-                    <img src="images/gallery-1.jpg" width="100%" class="small-img">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/gallery-1.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-2.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-3.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-4.jpg" width="100%" class="small-img">
+                    </div>
                 </div>
-                <div class="small-img-col">
-                    <img src="images/gallery-2.jpg" width="100%" class="small-img">
-                </div>
-                <div class="small-img-col">
-                    <img src="images/gallery-3.jpg" width="100%" class="small-img">
-                </div>
-                <div class="small-img-col">
-                    <img src="images/gallery-4.jpg" width="100%" class="small-img">
-                </div>
-              </div>
             </div>
             <div class="col-2">
                 <p> Home / T-Shirt</p>
-                <h1>Red Printd T-Shirt by HRX</h1>
+                <h1>Red Printed T-Shirt by HRX</h1>
                 <h4>$50</h4>
+                <div>
+                    <select>
+                        <option> Select Size </option>
+                        <option> XXL</option>
+                        <option> XL </option>
+                        <option> Large </option>
+                        <option>Medium</option>
+                        <option> Small </option>
+                    </select>
+                    <div>
+                        <input type="number" name="" id="" value="1">
+                        <a href="cart.html" class="btn">Add To Cart</a>
+                        <h3>Product Details <i class="fa fa-indent"></i></h3>
+                        <br>
+                        <p>
+                             Give your summer wardrobe a style upgrade with the HRX Men's Active T-Shirt. Team it with a
+                             pair of shorts for ytour morning workout or a denims for an evening out with the guys.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <select>
-                <option> Select Size </option>
-                <option> XXL</option>
-                <option> XL </option>
-                <option> Large </option>
-                <option>Medium</option>
-                <option> Small </option>
-            </select>
-            <input type="number" name="" id="" value="1">
-            <a href="" class="btn">Add To Cart</a>
-            
-            <h3>Product Details <i class="fa fa-indent"></i></h3>
-            <br>
-            <p> Give your summer wardrobe a style upgrad with the HRX Men's Active T-Shirt. Team it with a  pair of shorts for ytour morning workout or a denims for an evening out with the guys.</p>
+
+
         </div>
     </div>
 
@@ -89,13 +98,13 @@
 
     <!-- =============START TITLE=========== -->
 
-        <div class="small-container">
-            <div class="row row-2">
-                <h2>Related Products</h2>
-                <p>View more</p>
-            </div>
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <a href="products.html">view more &#8594;</a>
         </div>
-     <!-- =============END TITLE=========== -->
+    </div>
+    <!-- =============END TITLE=========== -->
 
 
     <!-- =============START PRODUCTS=========== -->
@@ -189,7 +198,7 @@
                 <div class="footer-col-4">
                     <h3>Follow us</h3>
                     <ul>
-                        <li>Facebook</li>
+                        <a href="https://www.facebook.com/asajib45/" target="_blank"> <li>Facebook</li></a>
                         <li>Twitter</li>
                         <li>Instagram</li>
                         <li>YouTube</li>
@@ -197,7 +206,7 @@
                 </div>
             </div>
             <hr>
-            <p class="copyright">Copyright 202 - Easy Tutorials</p>
+            <p class="copyright">Copyright 202 -SAJIB AHMED</p>
         </div>
     </footer>
 

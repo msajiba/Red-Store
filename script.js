@@ -27,3 +27,21 @@ smallImg[2].onclick = function () {
 smallImg[3].onclick = function () {
     productImg.src = smallImg [3].src;
 }
+
+
+// for accout
+
+const loginForm = document.getElementById('loginForm');
+const regForm = document.getElementById('registerForm');
+const indicator = document.getElementById('indicator');
+
+
+function register () {
+    regForm.style.transform = "translateX(0px)";
+    loginForm.style.transform = "translateX (0px)";
+}
+
+function login () {
+    regForm.style.transform = "translateX(300)";
+    loginForm.style.transform = "translateX (300px)";
+}
